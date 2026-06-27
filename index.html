@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arham Web Studio — Modern Websites for Growing Businesses</title>
+  <meta name="description" content="Arham Web Studio designs modern, high-converting websites for restaurants, cafés, gyms, salons, clinics, real estate businesses, startups and local businesses." />
+
+  <!-- Preconnect + Inter font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================== -->
+  <!-- CURSOR GLOW (decorative, follows mouse) -->
+  <!-- ============================== -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ============================== -->
+  <!-- NAVBAR -->
+  <!-- ============================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="logo">Arham<span class="logo-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-small btn-primary nav-cta">
+        <span>Get In Touch</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================== -->
+    <!-- 1. HERO SECTION -->
+    <!-- ============================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-a"></div>
+        <div class="blob blob-b"></div>
+        <div class="grain"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow fade-up">Arham Web Studio</p>
+
+        <h1 class="hero-title">
+          <span class="fade-up" style="--d:0.05s">Websites That Help</span>
+          <span class="fade-up" style="--d:0.15s">Businesses <em>Grow</em></span>
+        </h1>
+
+        <p class="hero-sub fade-up" style="--d:0.25s">
+          I create modern, high-converting websites for businesses of every size —
+          restaurants, cafés, gyms, salons, clinics, real estate and startups.
+        </p>
+
+        <div class="hero-actions fade-up" style="--d:0.35s">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <span>Get In Touch</span>
+          </a>
+        </div>
+
+        <div class="hero-meta fade-up" style="--d:0.45s">
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">10+</span>
+            <span class="hero-meta-label">Businesses helped</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">100%</span>
+            <span class="hero-meta-label">Mobile-friendly builds</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">24–72h</span>
+            <span class="hero-meta-label">First draft turnaround</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-cue-line"></div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 2. ABOUT SECTION -->
+    <!-- ============================== -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-label fade-up">
+          <p class="eyebrow">About Me</p>
+        </div>
+
+        <div class="about-content">
+          <h2 class="about-heading fade-up">
+            I build clean, fast and mobile&#8209;friendly websites for businesses that want a professional online presence.
+          </h2>
+
+          <p class="about-text fade-up" style="--d:0.1s">
+            Whether you own a restaurant, café, salon, gym, clinic, hotel, agency, retail store
+            or startup, I can create a website tailored to your business — designed to load
+            fast, look great on every screen, and turn visitors into customers.
+          </p>
+
+          <div class="about-tags fade-up" style="--d:0.2s">
+            <span class="tag">Custom design</span>
+            <span class="tag">Mobile-first</span>
+            <span class="tag">SEO-ready</span>
+            <span class="tag">Fast performance</span>
+            <span class="tag">Ongoing support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 3. SERVICES SECTION -->
+    <!-- EDIT HERE: Add, remove or rename service cards below -->
+    <!-- ============================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow fade-up">What I Build</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">Services tailored to your industry</h2>
+          <p class="section-sub fade-up" style="--d:0.1s">
+            Every business is different — every website I build reflects that.
+          </p>
+        </div>
+
+        <!-- SERVICES GRID — edit titles/descriptions/icons here -->
+        <div class="services-grid">
+
+          <div class="service-card fade-up">
+            <div class="service-icon" aria-hidden="true">🍽️</div>
+            <h3>Restaurant Websites</h3>
+            <p>Menus, reservations and food galleries that make people hungry to visit.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.05s">
+            <div class="service-icon" aria-hidden="true">☕</div>
+            <h3>Cafe Websites</h3>
+            <p>Warm, inviting designs that capture your café's atmosphere online.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.1s">
+            <div class="service-icon" aria-hidden="true">💇</div>
+            <h3>Salon Websites</h3>
+            <p>Elegant booking-ready sites that showcase your styling and services.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.15s">
+            <div class="service-icon" aria-hidden="true">🏋️</div>
+            <h3>Gym Websites</h3>
+            <p>Bold, high-energy sites with class schedules and membership plans.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.2s">
+            <div class="service-icon" aria-hidden="true">🩺</div>
+            <h3>Clinic Websites</h3>
+            <p>Trustworthy, accessible designs with appointment booking built in.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.25s">
+            <div class="service-icon" aria-hidden="true">🏨</div>
+            <h3>Hotel Websites</h3>
+            <p>Immersive visuals and room booking flows that convert browsers into guests.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.3s">
+            <div class="service-icon" aria-hidden="true">🏠</div>
+            <h3>Real Estate Websites</h3>
+            <p>Property listings, search filters and lead capture that close deals faster.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.35s">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h3>Portfolio Websites</h3>
+            <p>Minimal, work-first layouts that let your craft do the talking.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.4s">
+            <div class="service-icon" aria-hidden="true">🚀</div>
+            <h3>Business Landing Pages</h3>
+            <p>Sharp, focused single pages built to convert visitors into leads.</p>
+          </div>
+
+          <div class="service-card fade-up" style="--d:0.45s">
+            <div class="service-icon" aria-hidden="true">🛒</div>
+            <h3>E-commerce Stores</h3>
+            <p>Fast, secure online stores designed to make checkout effortless.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 4. PROCESS SECTION -->
+    <!-- ============================== -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow fade-up">How I Work</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">From conversation to launch</h2>
+          <p class="section-sub fade-up" style="--d:0.1s">
+            A simple, transparent process — no surprises, no jargon.
+          </p>
+        </div>
+
+        <div class="timeline" id="timeline">
+          <div class="timeline-line" aria-hidden="true">
+            <div class="timeline-line-fill" id="timelineFill"></div>
+          </div>
+
+          <div class="timeline-step fade-up">
+            <div class="timeline-marker"><span>01</span></div>
+            <div class="timeline-content">
+              <h3>Tell me about your business</h3>
+              <p>We talk about your goals, your customers and what your website needs to do for you.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step fade-up" style="--d:0.1s">
+            <div class="timeline-marker"><span>02</span></div>
+            <div class="timeline-content">
+              <h3>I design a modern website</h3>
+              <p>I design and build a clean, fast, on-brand site tailored to your industry.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step fade-up" style="--d:0.2s">
+            <div class="timeline-marker"><span>03</span></div>
+            <div class="timeline-content">
+              <h3>Review and request changes</h3>
+              <p>You review the live preview and request any changes — I refine until it's right.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step fade-up" style="--d:0.3s">
+            <div class="timeline-marker"><span>04</span></div>
+            <div class="timeline-content">
+              <h3>Website goes live</h3>
+              <p>Once you're happy, your website goes live and your business is ready online.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 5. PROJECTS SECTION -->
+    <!-- EDIT HERE: Replace demo project images, descriptions and "Visit Demo" links -->
+    <!-- ============================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow fade-up">Selected Work</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">A few demo projects</h2>
+          <p class="section-sub fade-up" style="--d:0.1s">
+            Concept builds that show the range of styles I design across industries.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1 — edit image, description and demo link -->
+          <article class="project-card fade-up">
+            <div class="project-image" style="background:linear-gradient(135deg,#1a1a1a,#0a0a0a);">
+              <span class="project-image-label">Royal Awadh Restaurant</span>
+            </div>
+            <div class="project-body">
+              <h3>Royal Awadh Restaurant</h3>
+              <p>A refined dining site with an elegant menu showcase and easy table reservations.</p>
+              <!-- EDIT: replace "#" with the live demo URL -->
+              <a href="#" class="btn btn-small btn-ghost project-link" target="_blank" rel="noopener">
+                <span>Visit Demo →</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 — edit image, description and demo link -->
+          <article class="project-card fade-up" style="--d:0.1s">
+            <div class="project-image" style="background:linear-gradient(135deg,#181818,#0a0a0a);">
+              <span class="project-image-label">Brew Haven Cafe</span>
+            </div>
+            <div class="project-body">
+              <h3>Brew Haven Cafe</h3>
+              <p>A cozy, warm-toned café site featuring a seasonal menu and online ordering.</p>
+              <!-- EDIT: replace "#" with the live demo URL -->
+              <a href="#" class="btn btn-small btn-ghost project-link" target="_blank" rel="noopener">
+                <span>Visit Demo →</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 — edit image, description and demo link -->
+          <article class="project-card fade-up" style="--d:0.2s">
+            <div class="project-image" style="background:linear-gradient(135deg,#1c1c1c,#0a0a0a);">
+              <span class="project-image-label">Titan Fitness Gym</span>
+            </div>
+            <div class="project-body">
+              <h3>Titan Fitness Gym</h3>
+              <p>A high-energy gym website with class schedules and membership sign-up flow.</p>
+              <!-- EDIT: replace "#" with the live demo URL -->
+              <a href="#" class="btn btn-small btn-ghost project-link" target="_blank" rel="noopener">
+                <span>Visit Demo →</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 6. TESTIMONIALS SECTION -->
+    <!-- EDIT HERE: Replace with real client testimonials when available -->
+    <!-- ============================== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow fade-up">Client Words</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">What clients say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <!-- TESTIMONIAL 1 — edit quote, name and business -->
+          <figure class="testimonial-card fade-up">
+            <blockquote>"Our new site looks incredible on every device, and bookings went up within the first week. Communication was smooth from start to finish."</blockquote>
+            <figcaption>
+              <span class="t-name">Aisha Khan</span>
+              <span class="t-role">Owner, Royal Awadh Restaurant</span>
+            </figcaption>
+          </figure>
+
+          <!-- TESTIMONIAL 2 — edit quote, name and business -->
+          <figure class="testimonial-card fade-up" style="--d:0.1s">
+            <blockquote>"Exactly the clean, modern look we wanted for the café. The whole process was fast, simple, and the final result felt premium."</blockquote>
+            <figcaption>
+              <span class="t-name">Daniel Brew</span>
+              <span class="t-role">Founder, Brew Haven Cafe</span>
+            </figcaption>
+          </figure>
+
+          <!-- TESTIMONIAL 3 — edit quote, name and business -->
+          <figure class="testimonial-card fade-up" style="--d:0.2s">
+            <blockquote>"Professional, responsive and genuinely talented. Our gym's sign-ups through the website have nearly doubled since launch."</blockquote>
+            <figcaption>
+              <span class="t-name">Marcus Lee</span>
+              <span class="t-role">Manager, Titan Fitness Gym</span>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 7. FAQ SECTION -->
+    <!-- ============================== -->
+    <section class="faq" id="faq">
+      <div class="container faq-inner">
+        <div class="section-head">
+          <p class="eyebrow fade-up">Good To Know</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">Frequently asked questions</h2>
+        </div>
+
+        <div class="accordion" id="accordion">
+
+          <div class="accordion-item fade-up">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>How long does it take?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="accordion-panel-inner">
+                <p>Most websites take between 5–10 days from our first call to launch, depending on the size of the project and how quickly feedback is shared.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-up" style="--d:0.05s">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>Do you redesign websites?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="accordion-panel-inner">
+                <p>Yes. If you already have a website that feels outdated or doesn't perform well on mobile, I can redesign it from the ground up while keeping what already works for your brand.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-up" style="--d:0.1s">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>Can I update content later?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="accordion-panel-inner">
+                <p>Absolutely. I build sites so text, images and basic content are easy to update yourself, and I'm also available for ongoing edits and support after launch.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item fade-up" style="--d:0.15s">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>Do you provide hosting?</span>
+              <span class="accordion-icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel">
+              <div class="accordion-panel-inner">
+                <p>Yes, I can set up and manage reliable hosting for you, or guide you through hosting it yourself if you'd prefer to keep full control of your account.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- 8. CONTACT SECTION -->
+    <!-- EDIT HERE: Update WhatsApp link, phone number and email in the contact-direct block -->
+    <!-- ============================== -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-left">
+          <p class="eyebrow fade-up">Get In Touch</p>
+          <h2 class="section-title fade-up" style="--d:0.05s">Let's build something great</h2>
+          <p class="section-sub fade-up" style="--d:0.1s">
+            Tell me a bit about your business and I'll get back to you within a day.
+          </p>
+
+          <div class="contact-direct fade-up" style="--d:0.15s">
+            <!-- EDIT: replace with real phone number -->
+            <a href="tel:+910000000000" class="contact-direct-item">
+              <span class="contact-direct-label">Phone</span>
+              <span class="contact-direct-value">+91 00000 00000</span>
+            </a>
+            <!-- EDIT: replace with real email address -->
+            <a href="mailto:hello@arhamwebstudio.com" class="contact-direct-item">
+              <span class="contact-direct-label">Email</span>
+              <span class="contact-direct-value">hello@arhamwebstudio.com</span>
+            </a>
+          </div>
+
+          <!-- EDIT: replace number in href with full international WhatsApp number, no + or spaces -->
+          <a href="https://wa.me/910000000000" target="_blank" rel="noopener" class="btn btn-whatsapp fade-up" style="--d:0.2s">
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+
+        <form class="contact-form fade-up" style="--d:0.1s" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="business">Business Name</label>
+            <input type="text" id="business" name="business" placeholder="Your business name" required>
+          </div>
+
+          <div class="form-row form-row-split">
+            <div>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@business.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span>Send Message</span>
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== -->
+  <!-- 9. FOOTER -->
+  <!-- EDIT HERE: Update social links (GitHub, LinkedIn, Instagram) -->
+  <!-- ============================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Arham<span class="logo-dot">.</span></a>
+        <p>Made with passion.</p>
+      </div>
+
+      <div class="footer-socials">
+        <!-- EDIT: replace "#" with real profile URLs -->
+        <a href="#" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.9-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.36 1.12 2.93.85.09-.66.34-1.12.62-1.38-2.22-.26-4.55-1.14-4.55-5.05 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.32.1-2.75 0 0 .84-.27 2.75 1.05a9.4 9.4 0 0 1 5.01 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.43.2 2.49.1 2.75.64.71 1.03 1.62 1.03 2.74 0 3.92-2.34 4.79-4.57 5.04.36.32.67.94.67 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z" fill="currentColor"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 0 .02 5 2.5 2.5 0 0 0-.02-5ZM3 8.98h4v12.02H3V8.98Zm7 0h3.83v1.64h.05c.53-1 1.84-2.06 3.78-2.06 4.04 0 4.79 2.66 4.79 6.12v6.32h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96v5.7h-4V8.98Z" fill="currentColor"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2.2c2.67 0 3 .01 4.05.06 1.04.05 1.75.22 2.36.46.64.25 1.18.58 1.7 1.1.52.52.85 1.06 1.1 1.7.24.61.41 1.32.46 2.36.05 1.05.06 1.38.06 4.05s-.01 3-.06 4.05c-.05 1.04-.22 1.75-.46 2.36a4.6 4.6 0 0 1-1.1 1.7c-.52.52-1.06.85-1.7 1.1-.61.24-1.32.41-2.36.46-1.05.05-1.38.06-4.05.06s-3-.01-4.05-.06c-1.04-.05-1.75-.22-2.36-.46a4.6 4.6 0 0 1-1.7-1.1 4.6 4.6 0 0 1-1.1-1.7c-.24-.61-.41-1.32-.46-2.36C2.21 15 2.2 14.67 2.2 12s.01-3 .06-4.05c.05-1.04.22-1.75.46-2.36.25-.64.58-1.18 1.1-1.7a4.6 4.6 0 0 1 1.7-1.1c.61-.24 1.32-.41 2.36-.46C8.97 2.21 9.3 2.2 12 2.2Zm0 1.8c-2.63 0-2.94.01-3.97.06-.85.04-1.31.18-1.61.3-.4.16-.69.34-1 .64-.3.31-.48.6-.64 1-.12.3-.26.76-.3 1.61C4.43 8.64 4.42 8.95 4.42 11.58c0 0 0 .29 0 .42 0 2.63.01 2.94.06 3.97.04.85.18 1.31.3 1.61.16.4.34.69.64 1 .31.3.6.48 1 .64.3.12.76.26 1.61.3 1.03.05 1.34.06 3.97.06s2.94-.01 3.97-.06c.85-.04 1.31-.18 1.61-.3.4-.16.69-.34 1-.64.3-.31.48-.6.64-1 .12-.3.26-.76.3-1.61.05-1.03.06-1.34.06-3.97s-.01-2.94-.06-3.97c-.04-.85-.18-1.31-.3-1.61a2.8 2.8 0 0 0-.64-1c-.31-.3-.6-.48-1-.64-.3-.12-.76-.26-1.61-.3C14.94 4.01 14.63 4 12 4Zm0 3.38a4.62 4.62 0 1 1 0 9.24 4.62 4.62 0 0 1 0-9.24Zm0 1.8a2.82 2.82 0 1 0 0 5.64 2.82 2.82 0 0 0 0-5.64Zm5.88-3.55a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z" fill="currentColor"/></svg>
+        </a>
+      </div>
+
+      <div class="footer-meta">
+        <p>&copy; <span id="year"></span> Arham Web Studio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
